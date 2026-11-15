@@ -69,7 +69,7 @@ A high-performance, browser-native **Tampermonkey Userscript** designed for **Li
 ```
 
 # ✏️ Customizing Your Pitch Template
-Inside salesnav-autopilot.user.js, you can modify the generatePitch function to match your specific offering:
+Inside salesnav-autopilot.user.js, line 28; you can modify the generatePitch function to match your specific offering:
 
 ```
 const generatePitch = (firstName, city) => {
@@ -79,8 +79,16 @@ const generatePitch = (firstName, city) => {
     // Keep strictly under 300 characters for LinkedIn connection requests!
     return `Hi ${name}, saw your profile in ${c}. I help teams streamline operations, manage back-office tech, and eliminate administrative bottlenecks. Would love to connect!`;
 };
-
 ```
+
+# Responsible Use & Anti-Ban Best Practices
+- I recommend sending no more than 20–25 connection requests per day on Sales Navigator to protect your account standing.
+- Delays: Never remove or reduce the built-in 14–18 second cooldown timer.
+- Educational Purpose: This tool is open-source and intended for educational and productivity enhancement purposes. Ensure compliance with LinkedIn's User Agreement when deploying automation.
+
+
+## Live Demo
+<img width="1280" height="639" alt="scriptDemo" src="https://github.com/user-attachments/assets/5cc3e4ce-43f4-4589-92f3-b2bafc4a06e9" />
 
 
 
